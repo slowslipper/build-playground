@@ -9,7 +9,7 @@ node {
       basePath = "/$DEPLOY_PATH/"
       println basePath
     }
-    catch {
+    catch (MissingPropertyException e) {
       println 'none'
     }
   }

@@ -1,0 +1,23 @@
+{
+  "name": "build-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowslipper/build-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowslipper/build-playground/issues"
+  },
+  "homepage": "https://github.com/slowslipper/build-playground#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

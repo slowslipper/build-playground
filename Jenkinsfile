@@ -3,7 +3,7 @@ node {
       println "PROJECT_NAME: $PROJECT_NAME"
   }
   stage ('clone') {
-    git 'https://github.com/slowslipper/www.git'
+    git 'https://github.com/slowslipper/build-playground.git'
   }
   dir ($PROJECT_NAME) {
     stage ('install') {

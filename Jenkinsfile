@@ -5,7 +5,7 @@ node {
   stage ('clone') {
     git 'https://github.com/slowslipper/build-playground.git'
   }
-  dir ($PROJECT_NAME) {
+  dir (PROJECT_NAME) {
     stage ('install') {
       sh 'yarn install'
     }
